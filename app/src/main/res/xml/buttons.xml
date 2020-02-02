@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="20%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="60dp">
+
+    <Row>
+        <Key android:keyLabel="PLAY" android:codes="-1201" android:keyEdgeFlags="left"/>
+        <Key android:keyLabel="TOAST" android:codes="-1202"/>
+        <Key android:keyLabel="CAM" android:codes="-1203"/>
+        <Key android:keyLabel="TEXT" android:codes="-1206"/>
+        <Key android:keyLabel="DELETE" android:codes="-1207" android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:keyLabel="(QWERTY)" android:codes="-1204" android:keyEdgeFlags="left"/>
+        <Key android:keyLabel="BT" android:codes="-1211"/>
+        <Key android:keyLabel="NFC" android:codes="-1208"/>
+        <Key android:keyLabel="NFC-ON" android:codes="-1209"/>
+        <Key android:keyLabel="SWAP" android:codes="-1210" android:keyEdgeFlags="right"/>
+    </Row>
+
+</Keyboard>
